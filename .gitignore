@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables & secrets (CRITICAL - Never commit API keys or database credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production build outputs
+dist/
+build/
+
+# Uploaded user documents (Prevent storing binary PDFs in Git history)
+server/uploads/
+uploads/
+*.pdf
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
